@@ -5,7 +5,7 @@ st.title("Welcome ML in PL!")
 st.header("Hope you are doing well")
 st.subheader("My name is Fanilo 😏")
 
-# Play with some nifty text
+# Play with Markdown
 st.markdown("""
 Hello :fire:
             
@@ -14,12 +14,13 @@ Here's a math formulae: $a + ar + a r^2 + a r^3$
 :red[This is a beautiful red]
 """)
 
+# Add a Divider
 st.divider()
 
 # Create a button
 my_button = st.button(label="Send balloons :balloon:")
 
-# Add an action to your button - the best action in streamlit
+# Add an action to your button - like balloons or snow
 if my_button:
     st.balloons()
 
@@ -34,7 +35,7 @@ st.divider()
 # Create an updateable placeholder
 counter_placeholder = st.empty()
 
-# Lets try to make a clicker counter! Create an empty placeholder and a button
+# Lets try to make a clicker counter
 my_counter = 0
 increment_counter = st.button(label="Click to add one!")
 
