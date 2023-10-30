@@ -33,10 +33,8 @@ Then run `streamlit run spotify_ml.py`.
 
 ## Resources
 
-Heavily inspired from Liz Carpenter's PyCon 2023 tutorial:
+Inspired from Liz Carpenter's PyCon 2023 tutorial:
 - Video: https://www.youtube.com/watch?v=cw44529_OU8
 - Github: https://github.com/LCarpenter87/StreamLit-Pycon-23
 
 fgjspaceman's [Kaggle notebook](https://www.kaggle.com/code/franoisgeorgesjulien/spotify-1-what-does-it-take-to-hit-the-charts) was also a helpful reference for charts.
-
-Link to slides: https://docs.google.com/presentation/d/1netCBbkX0y_vMgBfsZp__lV93ovhRvvguVJTBNHnhrk/edit?usp=sharing
